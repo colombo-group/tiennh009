@@ -16,15 +16,18 @@ div#layout {
 
 #header {
 	background-color: #ff4488;
-	height: 126px;
+	height: 124px;
 	color: #ffffff;
+}
+
+#header img:hover {
+	opacity: 0.7;
 }
 
 .search {
 	font-size: 10pt;
-	padding-top: 30px;
+	padding-top: 24px;
 	padding-bottom: 5px;
-	margin-left: 15px;
 	border-bottom: solid 1px #ffffff;
 	width: 200px;
 	float: left; 
@@ -97,7 +100,7 @@ div#layout {
 	text-decoration: none;
 	color: #ffffff;
 	font-size: 10pt;
-	padding: 15px;
+	padding: 12px;
 	border-radius: 4px 4px 0 0;
 }
 
@@ -105,12 +108,16 @@ div#layout {
 	background-color: #d73351;
 }
 
-.menu ul li.first {
-	padding-left: 25px;
-}
-
 .menu ul li.last {
 	border: none;
+}
+
+.borderMenu {
+	width: 1px;
+	height: 15px;
+	border-right: solid 1px #ff7cac;
+	margin-right: 2px;
+	margin-left: -2px 
 }
 
 #sliderBar {
@@ -139,9 +146,9 @@ a.left.carousel-control {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    height: 52px;
-   	margin: 150px 0 0 4px;
-    width: 52px;
+    height: 50px;
+   	margin: 155px 0 0 4px;
+    width: 50px;
 }
 
 a.right.carousel-control {
@@ -150,18 +157,19 @@ a.right.carousel-control {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    height: 52px;
-    margin: 150px 4px 0 0;
-    width: 52px;
+    height: 50px;
+    margin: 155px 4px 0 0;
+    width: 50px;
 }
 
 .glyphicon.glyphicon-chevron-left {
     margin-top: -20px;
+    margin-left: -15px;
 }
 
 .glyphicon.glyphicon-chevron-right {
     margin-top: -20px;
-    margin-right: -13px;
+    margin-right: -15px;
 }
 
 .glyphicon.glyphicon-chevron-left:before, .glyphicon.glyphicon-chevron-right:before {
@@ -189,6 +197,10 @@ a.right.carousel-control {
 	font-size: 10pt;
 }
 
+.thumbnail p:hover {
+	opacity: 0.7;
+}
+
 .thumbnail .opacity {
 	position: absolute;
 	width: 250px;
@@ -200,7 +212,7 @@ a.right.carousel-control {
 }
 
 .thumbnail span:hover {
-	color: blue;
+	color: #ff4466;
 }
 
 .bannerBg {
@@ -224,6 +236,10 @@ a.right.carousel-control {
     margin-bottom: 25px;
 }
 
+.linkList img:hover {
+	opacity: 0.7;
+}
+
 .listItem {
 	padding: 15px 15px;
 	border-bottom: solid 2px #f6f6f6;  
@@ -245,7 +261,7 @@ a.right.carousel-control {
 }
 
 .itemRight a:hover {
-	color: #2626e4;
+	color: #bbbbbb;
 }
 
 .itemRight span {
@@ -271,6 +287,10 @@ a.right.carousel-control {
 	padding-bottom: 25px;
 }
 
+.news img:hover {
+	opacity: 0.7;
+}
+
 .news a {
 	color: #f34764;
 	text-decoration: none;
@@ -283,7 +303,7 @@ a.right.carousel-control {
 }
 
 .news a:hover {
-	color: #2626e4;
+	color: #d73351;
 }
 
 .news p {
@@ -354,7 +374,11 @@ a.right.carousel-control {
 }
 
 .newsLeftTop a:hover {
-	color: #2626e4;
+	color: #d73351;
+}
+
+.newsLeftTop img:hover {
+	opacity: 0.7;
 }
 
 .newsRight {
@@ -380,7 +404,11 @@ a.right.carousel-control {
 }
 
 .newsRightTop a:hover {
-	color: #2626e4;
+	color: #d73351;
+}
+
+.newsRightTop img:hover {
+	opacity: 0.7;
 }
 
 .newsBot {
@@ -395,7 +423,7 @@ a.right.carousel-control {
 }
 
 .newsBot a:hover {
-	color: #2626e4;
+	color: #ff4466;
 }
 
 .newsBot ul {
@@ -421,6 +449,10 @@ a.right.carousel-control {
         
 }
 
+.heading a:hover {
+	opacity: 0.7;
+}
+
 .heading:after {
     content: ' ';
     position: absolute;
@@ -437,10 +469,6 @@ a.right.carousel-control {
 	text-decoration: none;
 	color: #ffffff;
 }
-
-.heading a:hover {
-	color: #ffff00;
-} 
 
 .endHeading {
 	padding-top: 15px;
@@ -497,7 +525,7 @@ a.right.carousel-control {
 }
 
 #footer a:hover {
-	color: #ffff00;
+	opacity: 0.7;
 	background-color: #f34764;
 }
 
@@ -511,7 +539,7 @@ a.right.carousel-control {
 }
 
 .menuFt {
-	padding-top: 25px;
+	padding-top: 20px;
 }
 
 .logoFt {
