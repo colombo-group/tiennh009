@@ -144,10 +144,13 @@ div#layout {
 	color: #ff4488;
 }
 
+#content {
+	margin-top: 25px;
+}
+
 .section {
 	width: 680px;
 	float: left;
-	margin-top: 25px;
 	margin-bottom: 75px;
 	margin-right: 20px;
 }
@@ -447,7 +450,6 @@ p.note {
 .aside {
 	width: 300px;
 	float: right;
-	margin-top: 25px;
 }
 
 #footer {

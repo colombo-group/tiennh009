@@ -144,11 +144,14 @@ div#layout {
 	color: #ff4488;
 }
 
+#content {
+	margin-top: 25px;
+}
+
 .section {
 	width: 700px;
 	float: left;
 	padding-right: 20px;
-	margin-top: 25px;
 	margin-bottom: 75px;
 }
 
@@ -358,7 +361,6 @@ div#layout {
 .aside {
 	width: 300px;
 	float: right;
-	margin-top: 25px;
 }
 
 #footer {
